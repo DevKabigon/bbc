@@ -1,8 +1,8 @@
 {
-  "name": "{{projectName}}",
+  "name": "bbc",
   "version": "0.1.0",
   "private": true,
-  "description": "{{BRAND_NAME}} - Premium landing page with waitlist",
+  "description": "bbc - Premium landing page with waitlist",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
