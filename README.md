@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 {{BRAND_NAME}}
+# 🚀 bbc
 
 **Product Hunt-ready landing page with waitlist functionality**
 
@@ -114,7 +114,7 @@ Create a `.env.local` file in the root directory:
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Brand Name (automatically set by Rapid Builder during project creation)
-# BRAND_NAME={{BRAND_NAME}}
+# BRAND_NAME=bbc
 ```
 
 3. **Get your Resend API Key**
@@ -175,14 +175,14 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Brand Name
 
-The brand name is automatically set when the project is created. Using the `{{BRAND_NAME}}` placeholder in template files will automatically replace it.
+The brand name is automatically set when the project is created. Using the `bbc` placeholder in template files will automatically replace it.
 
 To change it manually:
 
 ```typescript
 // lib/brand.ts
 export function getBrandName(): string {
-  return process.env.BRAND_NAME || "{{BRAND_NAME}}";
+  return process.env.BRAND_NAME || "bbc";
 }
 ```
 
@@ -236,7 +236,7 @@ This template uses shadcn/ui's preset system. shadcn/ui automatically generates 
 Edit `components/landing/hero-section.tsx`:
 
 ```typescript
-const headline = "{{BRAND_NAME}}";
+const headline = "bbc";
 const subheadline = "Revolutionary solution for modern problems";
 ```
 
